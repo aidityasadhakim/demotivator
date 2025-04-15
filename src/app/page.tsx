@@ -11,7 +11,7 @@ const App = () => {
   const [response, setResponse] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  // Check for user's preferred color scheme
+  // Check for user&apos;s preferred color scheme
   useEffect(() => {
     const prefersDark = window.matchMedia(
       "(prefers-color-scheme: dark)"

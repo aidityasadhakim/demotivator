@@ -38,10 +38,10 @@ const InputForm = ({ onSubmit, isLoading }: InputFormProps) => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={handleKeyDown}
-              placeholder="I'm thinking of starting a new workout routine..."
+              placeholder="I&apos;m thinking of starting a new workout routine..."
               className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 dark:focus:ring-pink-500"
               rows={3}
-              aria-label="Enter what you're motivated to do"
+              aria-label="Enter what you&apos;re motivated to do"
               tabIndex={0}
             />
           </div>

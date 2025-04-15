@@ -10,7 +10,7 @@ const Hero = () => {
           </span>
         </h1>
         <p className="text-base md:text-lg text-gray-600 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-          When you're feeling motivated to do something, we're here to help you
+          When you&apos;re feeling motivated to do something, we&apos;re here to help you
           reconsider. Our AI-powered{" "}
           <span className="text-sm text-gray-100 opacity-50">de</span>motivator
           will give you all the reasons not to bother.
