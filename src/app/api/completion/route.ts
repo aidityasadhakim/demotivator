@@ -60,7 +60,7 @@ Answer guidelines
 - Fourth is sarcastic final sarcasm about the user's goal, make the user rethink about their decision, give them the most clear and sarcastic final statement of why they shouldn't do it
 `;
 
-export const motivateUser = async (input: string) => {
+const motivateUser = async (input: string) => {
   const messages = [new SystemMessage(systemPrompt), new HumanMessage(input)];
 
   const response = await motivator.invoke(messages);
